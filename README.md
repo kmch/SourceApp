@@ -19,4 +19,4 @@ conda create -n riverpy python=3.10
 ## Citing
 If you use any part of this repository in your research, please cite the following paper:
 
--  Chrapkiewicz, Kajetan and Lipp, Alex and Barron, Leon Patrick and Barnes, Richard and Roberts, Gareth, *Apportioning Sources of Chemicals of Emerging Concern Along an Urban River with Inverse Modelling*. Available at https://doi.org/10.31223/X52T22 and http://dx.doi.org/10.2139/ssrn.4697195.
+-  Chrapkiewicz K, Lipp AG, Barron LP, Barnes R, and Roberts GG, *Apportioning Sources of Chemicals of Emerging Concern Along an Urban River with Inverse Modelling*. Submitted to Science of the Total Environment. Preprint available at https://doi.org/10.31223/X52T22 and http://dx.doi.org/10.2139/ssrn.4697195.
