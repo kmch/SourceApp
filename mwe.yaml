@@ -16,6 +16,6 @@ dependencies:
   - pybind11
   - pygraphviz
   - pytest
-  - riverpy>=0.1.0
+  - riverpy>=0.1.1
   - tqdm
 
