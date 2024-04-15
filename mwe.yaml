@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+  - kmch
+dependencies:
+  - python>=3.10
+  - pip
+  - jupyter
+  - cvxpy
+  - gdal
+  - hypothesis
+  - matplotlib
+  - networkx
+  - numpy
+  - openpyxl
+  - pandas
+  - pybind11
+  - pygraphviz
+  - pytest
+  - riverpy>=0.1.0
+  - tqdm
+
