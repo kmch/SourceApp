@@ -57,7 +57,7 @@ python mwe.py
 Open the generated PNG files. The top-right subplot of each 6-subplot figure is supposed to be blank.
 
 ### Troubleshooting
-If you experience troubles with Python failing to import some modules, check if they installed correctly by running:
+If you experience troubles with Python failing to import some modules, check if they are installed correctly by running:
 ```bash
 conda activate $my_env && conda list | grep riverpy
 ```
