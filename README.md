@@ -61,7 +61,7 @@ If you experience troubles with Python failing to import some modules, check if 
 ```bash
 conda activate $my_env && conda list | grep riverpy
 ```
-where `riverpy` should be replaced by the module you want to check. If the above command returns an empty line, this means the module is not install in your environment. Make sure that the `python` command points to the executable of this environment (see the step 2. of this section).
+where `riverpy` should be replaced by the module you want to check. If the above command returns an empty line, this means the module is not installed in your environment. To solve this problem, make sure that the `python` command points to the executable of this environment (see the step 2. of this section).
  
 ## Citing
 If you use any part of this repository in your research, please cite the following paper:
