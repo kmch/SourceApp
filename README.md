@@ -7,9 +7,9 @@ urban river with inverse modelling* by Chrapkiewicz et al. (submitted to Science
 - [data](data): contains publicly available data sufficient to reproduce the results,
 - [examples](examples): contains a minimal working example, MWE (see 'Installation' below for how to run it).
 
-The example takes two input files (provided under `data`):
+The example uses two input files (provided under `data`):
 - flow directions across Thames basin (in ESRI D8 format) 
--  an Excel file with concentrations of contaminants of emerging concern measured across Thames basin in London by Egli et al.  (2023), see: https://doi.org/10.1016/j.envint.2023.108210
+-  an Excel file with concentrations of contaminants of emerging concern measured across Thames basin in London by Egli et al.  (2023), see: https://doi.org/10.1016/j.envint.2023.108210.
 
 ## Installation
 To install the software required to run the MWE, follow the steps below. The commands are supposed to be run in a Unix-like terminal (tested in `bash` and `zsh` shells), unless otherwise specified. Make sure you have `anaconda` installed before you proceed. 
