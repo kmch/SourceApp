@@ -24,10 +24,11 @@ From now on, all the commands need to be run in this conda environment. Make sur
 ```bash
 which python
 ```
-You should get a path looking like this:
+You should get a path looking more or less like this:
 ```bash
 $HOME/anaconda3/envs/mwe/bin
 ```
+where $HOME will be expanded to your home path.
 3. Install the `autocatchments` package, following the guidelines on https://github.com/AlexLipp/autocatchments/tree/name listed below:
 ```bash
 git clone git@github.com:AlexLipp/autocatchments.git
