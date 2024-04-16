@@ -20,7 +20,10 @@ cd SourceApp
 ```bash
 my_env=mwe; conda env create --name $my_env --file=mwe.yaml && conda activate $my_env
 ```
-From now on, all the commands need to be run in this conda environment.
+From now on, all the commands need to be run in this conda environment. Make sure that the `python` command points to the executable of that environment, not the system-wide python installation. Check it by running:
+`which python`
+You should get a path looking like this:
+`$HOME/anaconda3/envs/mwe/bin`
 
 3. Install the `autocatchments` package, following the guidelines on https://github.com/AlexLipp/autocatchments/tree/name listed below:
 ```bash
