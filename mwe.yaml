@@ -1,21 +1,26 @@
+# Requirements to run MWE version 0.0.1 of Chrapkiewicz et al. (2024)
+# http://dx.doi.org/10.2139/ssrn.4697195
+
+# V. 0.0.1 is the one included in the report for NERC (grant no. NE/X010805/1).
+
 channels:
   - conda-forge
   - kmch
 dependencies:
-  - python>=3.10
-  - pip
-  - jupyter
-  - cvxpy
-  - gdal
-  - hypothesis
-  - matplotlib
-  - networkx
-  - numpy
-  - openpyxl
-  - pandas
-  - pybind11
-  - pygraphviz
-  - pytest
-  - riverpy>=0.1.1
+  - cvxpy           # convex optimization package by Prof. S. Boyd (Stanford) et al.
+  - gdal            # landscape processing
+  - hypothesis 
+  - jupyter 
+  - matplotlib 
+  - networkx        # graph theory
+  - numpy 
+  - openpyxl        # needed to correctly install of `faster-unmixer`
+  - pandas 
+  - pip 
+  - pybind11 
+  - pygraphviz 
+  - pytest 
+  - python==3.12    # tested for 3.12. Should we change to >=3.12?
+  - riverpy==0.1.1  # first version working out of the box for others
   - tqdm
 
