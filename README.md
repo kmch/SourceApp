@@ -2,6 +2,7 @@
 This repository contains material accompanying the manuscript  *Apportioning sources of chemicals of emerging concern along an
 urban river with inverse modelling* by Chrapkiewicz et al. (submitted to Science of the Total Environment), preprint available: [link](https://doi.org/10.31223/X52T22)
 
+At the centre of our workflow is the `faster-unmixer` software by Barnes \& Lipp (in press, preprint DOI [10.31223/X5708M](https://doi.org/10.31223/X5708M)). It can be installed following the guidelines below.
 
 ## Structure of the repository
 - [data](data): contains publicly available data sufficient to reproduce the results,
