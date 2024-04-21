@@ -49,10 +49,6 @@ cd faster-unmixer
 git submodule update --init --recursive
 pip install -e .
 ```
-If you encounter any run-time errors from the calls to `funmixer`, it may mean the version you cloned has some modifications that made it incompatible with the rest of the software. In this case, change to the tested version of the package by running:
-```bash
-git checkout 939c9f89f27ccefc4a172eb065c0d6f1f0de0438
-```
 
 5. Run the MWE:
 ```bash
@@ -67,6 +63,12 @@ If you experience troubles with Python failing to import some modules, check if 
 conda activate $my_env && conda list | grep riverpy
 ```
 where `riverpy` should be replaced by the module you want to check. If the above command returns an empty line, this means the module is not installed in your environment. To solve this problem, make sure that the `python` command points to the executable of this environment (see the step 2. of this section).
+
+If you encounter any run-time errors from the calls to `funmixer`, it may mean the version you cloned has some modifications that made it incompatible with the rest of the software. In this case, change to the tested version of the package by running:
+```bash
+cd faster-unmixer
+git checkout 939c9f89f27ccefc4a172eb065c0d6f1f0de0438
+```
  
 ## Citing
 If you use any part of this repository in your research, please cite the following paper:
