@@ -1,6 +1,5 @@
-# :pill: :non-potable_water: SourceApp
-This repository contains material accompanying the manuscript  *Apportioning sources of chemicals of emerging concern along an
-urban river with inverse modelling* by Chrapkiewicz et al. (submitted to Science of the Total Environment), preprint available: [link](https://doi.org/10.31223/X52T22)
+# :pill: SourceApp :non-potable_water:
+This repository contains material accompanying the paper by Chrapkiewicz et al. (2024) [Apportioning sources of chemicals of emerging concern along an urban river with inverse modelling](https://doi.org/10.1016/j.scitotenv.2024.172827), published in Science of the Total Environment. 
 
 At the centre of our workflow is the `faster-unmixer` software by Barnes \& Lipp (in press, preprint DOI [10.31223/X5708M](https://doi.org/10.31223/X5708M)). It can be installed following the guidelines below.
 
@@ -73,4 +72,4 @@ git checkout 939c9f89f27ccefc4a172eb065c0d6f1f0de0438
 ## Citing
 If you use any part of this repository in your research, please cite the following paper:
 
--  Chrapkiewicz, Kajetan and Lipp, Alex and Barron, Leon Patrick and Barnes, Richard and Roberts, Gareth, *Apportioning sources of chemicals of emerging concern along an urban river with inverse modelling*. Available at SSRN: https://ssrn.com/abstract=4697195 or http://dx.doi.org/10.2139/ssrn.4697195.
+-  Chrapkiewicz, Kajetan and Lipp, Alex and Barron, Leon Patrick and Barnes, Richard and Roberts, Gareth, *Apportioning sources of chemicals of emerging concern along an urban river with inverse modelling*. Science of the Total Environment. [DOI:10.1016/j.scitotenv.2024.172827](https://doi.org/10.1016/j.scitotenv.2024.172827).
