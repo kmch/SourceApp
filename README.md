@@ -1,6 +1,10 @@
 # :pill: SourceApp :non-potable_water:
 This repository contains material accompanying the paper by Chrapkiewicz et al. (2024) [Apportioning sources of chemicals of emerging concern along an urban river with inverse modelling](https://doi.org/10.1016/j.scitotenv.2024.172827), published in Science of the Total Environment. 
 
+![graphical_abstract](https://github.com/kmch/SourceApp/assets/19067370/81e1b40c-6bb9-4b74-aa37-ce7c884980f3)
+
+
+
 At the centre of our workflow is the `faster-unmixer` software by Barnes \& Lipp (in press, preprint DOI [10.31223/X5708M](https://doi.org/10.31223/X5708M)). It can be installed following the guidelines below.
 
 ## Structure of the repository
