@@ -3,9 +3,7 @@ This repository contains material accompanying the paper by Chrapkiewicz et al. 
 
 ![graphical_abstract](https://github.com/kmch/SourceApp/assets/19067370/81e1b40c-6bb9-4b74-aa37-ce7c884980f3)
 
-
-
-At the centre of our workflow is the `faster-unmixer` software by Barnes \& Lipp (in press, preprint DOI [10.31223/X5708M](https://doi.org/10.31223/X5708M)). It can be installed following the guidelines below.
+At the centre of our workflow is the `faster-unmixer` software by [Barnes \& Lipp (2024)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023WR036159). It can be installed following the guidelines below.
 
 ## Structure of the repository
 - [data](data): contains publicly available data sufficient to reproduce the results,
